@@ -6,7 +6,7 @@ import Styles from './styles';
 
 export default function Layout({ children }) {
   return (
-    <div className="container">
+    <div>
       <Head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -16,9 +16,12 @@ export default function Layout({ children }) {
 
       <Header />
 
-      {children}
+      <div className="container">
+        {children}
+      </div>
 
       <Footer />
+
       <Styles />
     </div>
   )
