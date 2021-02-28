@@ -56,6 +56,7 @@ export default function Styles() {
         border: 1px #e2e2e2 solid;
         border-radius: 3px;
         resize: none;
+        word-break: break-all;
         background: white;
         color: #e01e5a;
         width: 60%;

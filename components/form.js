@@ -37,7 +37,7 @@ export default class Form extends React.Component {
         </div>
 
         <div>
-          {this.state.output && <textarea className="output" ref="output" value={this.state.output} readOnly rows="1" />}
+          {this.state.output && <textarea className="output" ref="output" value={this.state.output} readOnly rows="4" />}
         </div>
 
         <div>
