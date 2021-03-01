@@ -8,13 +8,13 @@ export default function Styles() {
         padding: 0;
         margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        color: #171717;
       }
 
       .container {
         margin: 0 auto;
         max-width: 600px;
         padding: 0 0.5rem;
-        text-align: center;
       }
 
       main {
@@ -35,9 +35,15 @@ export default function Styles() {
         text-decoration: none;
       }
 
+      p {
+        line-height: 1.4rem;
+      }
+
       .title {
         margin: 0;
         font-size: 4rem;
+        text-align: center;
+        color: #212121;
       }
 
       .input {
@@ -66,6 +72,10 @@ export default function Styles() {
       .input,
       .output {
         margin-bottom: 0.5em;
+      }
+
+      .u-text-center {
+        text-align: center;
       }
 
       @media (max-width: 600px) {

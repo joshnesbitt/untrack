@@ -31,7 +31,7 @@ export default class Form extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className="u-text-center">
         <div>
           <input placeholder="Paste link here..." ref="input" onChange={this.onChange.bind(this)} className="input" />
         </div>
