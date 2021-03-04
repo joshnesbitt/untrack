@@ -2,11 +2,22 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7a8124e0-13fb-47b3-a194-531e1095ba7c/deploy-status)](https://app.netlify.com/sites/untrack/deploys)
 
-TODO
+
+## Usage
+
+Head to [untrack.link](https://untrack.link), paste any link and the tracking parameters will be stripped.
+
 
 ## Development
 
-...
+```
+nvm use
+npm i
+npm run dev
+```
+
+Head to `https://localhost:3000`.
+
 
 ## Why build this?
 
