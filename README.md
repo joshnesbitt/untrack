@@ -5,14 +5,14 @@
 
 ## Usage
 
-Head to [untrack.link](https://untrack.link), paste any link and the tracking parameters will be stripped.
+Head to [untrack.link](https://untrack.link), paste in any link and voila.
 
 
 ## Development
 
 ```
 nvm use
-npm i
+npm install
 npm run dev
 ```
 
