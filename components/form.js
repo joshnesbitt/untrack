@@ -1,6 +1,6 @@
 import React from 'react';
 
-import untrack from '../lib/untrack';
+import { untrack } from '../lib/untrack';
 
 export default class Form extends React.Component {
   constructor(props) {
