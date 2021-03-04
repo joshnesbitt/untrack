@@ -32,8 +32,8 @@ export default function Styles() {
 
       .c-footer {
         height: 70px;
-        padding: 2em;
-        margin-top: 2em;
+        padding: 2rem;
+        margin-top: 2rem;
         text-align: center;
         border-top: 1px solid #eaeaea;
         color: #bbb;
@@ -49,8 +49,8 @@ export default function Styles() {
       .c-input {
         border: none;
         border-bottom: 2px dotted #ccc;
-        font-size: 2em;
-        padding: 0.2em 0.4em;
+        font-size: 2rem;
+        padding: 0.2rem 0.4rem;
         width: 90%;
       }
 
@@ -71,11 +71,7 @@ export default function Styles() {
       .c-title,
       .c-input,
       .c-output {
-        margin-bottom: 0.5em;
-      }
-
-      .u-text-center {
-        text-align: center;
+        margin-bottom: 0.5rem;
       }
 
       .c-button {
@@ -91,6 +87,10 @@ export default function Styles() {
         background: white;
         color: ${primaryColor};
 
+      }
+
+      .u-text-center {
+        text-align: center;
       }
 
       @media (max-width: 600px) {
