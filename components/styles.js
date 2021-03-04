@@ -1,5 +1,5 @@
 export default function Styles() {
-  // TODO: Sort styles.
+  const primaryColor = '#0fdfef';
 
   return (
     <style jsx global>{`
@@ -11,17 +11,26 @@ export default function Styles() {
         color: #171717;
       }
 
-      .container {
+      a {
+        color: ${primaryColor};
+        text-decoration: none;
+      }
+
+      p {
+        line-height: 1.4rem;
+      }
+
+      .c-container {
         margin: 0 auto;
         max-width: 600px;
         padding: 0 0.5rem;
       }
 
-      main {
+      .c-container__inner {
         padding: 3rem 0;
       }
 
-      footer {
+      .c-footer {
         height: 70px;
         padding: 2em;
         margin-top: 2em;
@@ -30,23 +39,14 @@ export default function Styles() {
         color: #bbb;
       }
 
-      a {
-        color: #0fdfef;
-        text-decoration: none;
-      }
-
-      p {
-        line-height: 1.4rem;
-      }
-
-      .title {
+      .c-title {
         margin: 0;
         font-size: 4rem;
         text-align: center;
         color: #212121;
       }
 
-      .input {
+      .c-input {
         border: none;
         border-bottom: 2px dotted #ccc;
         font-size: 2em;
@@ -54,11 +54,11 @@ export default function Styles() {
         width: 90%;
       }
 
-      .input:focus {
+      .c-input:focus {
         outline: none;
       }
 
-      .output {
+      .c-output {
         border: 1px #e2e2e2 solid;
         border-radius: 3px;
         resize: none;
@@ -68,9 +68,9 @@ export default function Styles() {
         width: 60%;
       }
 
-      .title,
-      .input,
-      .output {
+      .c-title,
+      .c-input,
+      .c-output {
         margin-bottom: 0.5em;
       }
 
@@ -78,12 +78,32 @@ export default function Styles() {
         text-align: center;
       }
 
+      .c-button {
+        background: ${primaryColor};
+        color: white;
+        border: 2px ${primaryColor} solid;
+        font-size: 1.4rem;
+        padding: 0.4rem 1rem;
+        cursor: pointer;
+      }
+
+      .c-button:hover {
+        background: white;
+        color: ${primaryColor};
+
+      }
+
       @media (max-width: 600px) {
-        .title {
+        .c-title {
           font-size: 2rem;
         }
-        .input {
+
+        .c-input {
           font-size: 1.5rem;
+        }
+
+        .c-button {
+          font-size: 1rem;
         }
       }
     `}</style>

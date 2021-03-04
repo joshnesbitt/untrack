@@ -6,8 +6,8 @@ import Form from '../components/form';
 export default function Index() {
   return (
     <Layout>
-      <main>
-        <h1 className="title">
+      <main className="c-container__inner">
+        <h1 className="c-title">
           Untrack Any Link
         </h1>
 

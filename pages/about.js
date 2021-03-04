@@ -5,8 +5,8 @@ import Layout from '../components/layout';
 export default function Index() {
   return (
     <Layout>
-      <main>
-        <h1 className="title">
+      <main className="c-container__inner">
+        <h1 className="c-title">
           Why Build This?
         </h1>
 

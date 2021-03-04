@@ -33,15 +33,15 @@ export default class Form extends React.Component {
     return (
       <div className="u-text-center">
         <div>
-          <input placeholder="Paste link here..." ref="input" onChange={this.onChange.bind(this)} className="input" />
+          <input placeholder="Paste link here..." ref="input" onChange={this.onChange.bind(this)} className="c-input" />
         </div>
 
         <div>
-          {this.state.output && <textarea className="output" ref="output" value={this.state.output} readOnly rows="4" />}
+          {this.state.output && <textarea className="c-output" ref="output" value={this.state.output} readOnly rows="2" />}
         </div>
 
         <div>
-          <button ref="button" onClick={this.onCopy.bind(this)}>Copy</button>
+          {this.state.output && <button className="c-button" ref="button" onClick={this.onCopy.bind(this)}>Copy</button>}
         </div>
       </div>
     )
